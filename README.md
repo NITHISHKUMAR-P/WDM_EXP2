@@ -1,17 +1,17 @@
-### EX2 Generating Association Rules for Employee dataset using Apriori Algorithm
-### DATE: 17.02.2024
-### AIM: 
+### EX NO : 02
+### DATE: 
+# <p align="center">Generating Association Rules for Employee dataset using Apriori Algorithm</p>
+## AIM: 
 To generate associate rules for the employee dataset using Apriori Algorithm.
-### Description:
+## Description:
 In data mining, association rule learning is a popular and well researched method for discovering interesting
 relations between variables in large databases. It can be described as analyzing and presenting strong rules discovered
 in databases using different measures of interestingness. In market basket analysis association rules are used and they
 are also employed in many application areas including Web usage mining, intrusion detection and bioinformatics.
 Creation of Buying Table:
-### Procedure:
+## Procedure:
 1) Open Start -> Programs -> Accessories -> Notepad
 2) Type the following training data set with the help of Notepad for Buying Table , Banking Table & Employee Table.
-
 ```
 ------------
 Buying Table
@@ -67,7 +67,6 @@ female,0113,rbi,antp,no
 male,0114,hdfc,pdtr,yes 
 female,0115,sbh,pdtr,no
 
-
 ---------------
 Employee Table
 ---------------
@@ -94,20 +93,17 @@ middle, high, B
 6) In that dialog box there are four modes, click on explorer.
 7) Explorer shows many options. In that click on ‘open file’ and select the arff file
 8) Click on edit button which shows buying table on weka.
-### OUTPUT:
-#### Buying Table:
+## OUTPUT:
+### Buying Table:
 ![buyedit](https://github.com/NITHISHKUMAR-P/WDM_EXP2/assets/93427017/758bfad5-7b69-4f2e-a35a-1e270b3433ce)
 
-
-#### Banking Table:
+### Banking Table:
 ![bankedit](https://github.com/NITHISHKUMAR-P/WDM_EXP2/assets/93427017/315f92e9-5c58-4fa2-9907-6a664f49d1c5)
 
-
-#### Employee Table:
+### Employee Table:
 ![empedit](https://github.com/NITHISHKUMAR-P/WDM_EXP2/assets/93427017/8d67bcc9-9506-4ecf-8f8e-d607ebcaaab0)
 
-
-### Procedure for Association Rules:
+## Procedure for Association Rules:
 1) Open Start -> Programs -> Accessories -> Notepad
 2) Open explorer.
 3) Click on open file and select buying.arff
@@ -115,18 +111,12 @@ middle, high, B
 5) Select Choose button and then click on Apriori Algorithm.
 6) Click on Start button and output will be displayed on the right side of the window.
 
-### OUTPUT:
-#### Buying Table:
+## OUTPUT:
+### Buying Table:
 ![buyapriri](https://github.com/NITHISHKUMAR-P/WDM_EXP2/assets/93427017/b2b425a5-fbca-41ff-8eba-4c890f2a7524)
-
-
-#### Banking Table:
+### Banking Table:
 ![bankapriri](https://github.com/NITHISHKUMAR-P/WDM_EXP2/assets/93427017/61a5a920-a552-443f-8670-3bf53c3897fc)
-
-
-#### Employee Table:
+### Employee Table:
 ![empapriri](https://github.com/NITHISHKUMAR-P/WDM_EXP2/assets/93427017/2ae6b3b5-15cb-4fe0-ba18-374690560864)
-
-
-### RESULT: 
+## RESULT: 
 Thus, generation of association rules using apriori algorithm is executed succesfully.
